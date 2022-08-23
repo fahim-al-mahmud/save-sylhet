@@ -1,0 +1,33 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 1000;
+    color: white;
+}
+
+.link-open {
+    text-decoration: none;
+    background-color: rgb(0, 112, 77);
+    padding: 10px 30px;
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.top-section {
+    background-image: url(images/top.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.top-content {
+    padding: 50px 250px 100px 250px;
+    text-align: center;
+    text-shadow: 10px;
+    color: rgb(255, 255, 255);
+}
