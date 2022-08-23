@@ -6,7 +6,6 @@ body {
 h1 {
     font-size: 60px;
     font-weight: 1000;
-    color: white;
 }
 
 .link-open {
@@ -30,4 +29,86 @@ h1 {
     text-align: center;
     text-shadow: 10px;
     color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.middle-align {
+    text-align: center;
+    padding: 50px 250px 50px 250px;
+}
+
+strong {
+    font-size: 32px;
+}
+
+.ammount {
+    display: flex;
+}
+
+.ammount-box {
+    height: 100px;
+    width: 100px;
+    border: solid;
+    color: gray;
+    text-align: center;
+    margin-right: 20px;
+    padding: 30px;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.box-content {
+    height: auto;
+    width: 400px;
+    text-align: justify;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: rgba(0, 128, 92, 0.386);
+    color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+button {
+    width: 120px;
+    padding: 10px;
+    font-weight: 800;
+    background-color: rgb(3, 75, 3);
+    color: white;
+    border-radius: 5px;
+    border: 0;
+}
+
+input {
+    width: 200px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: white;
+    border: 0;
+}
+
+.box-color {
+    height: 60px;
+    width: auto;
+    background-color: rgba(7, 109, 7, 0.226);
+    margin-bottom: 50px;
+
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+footer {
+    background-color: rgb(0, 62, 0);
+    height: 80px;
 }
