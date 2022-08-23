@@ -111,7 +111,7 @@ button {
 
 input {
     width: 200px;
-    height: 36px;
+    height: 39px;
     border-radius: 5px;
     background-color: white;
     border: 0;
@@ -119,9 +119,14 @@ input {
 
 .box-color {
     height: 60px;
-    width: auto;
+    width: 450px;
     background-color: rgba(7, 109, 7, 0.226);
     margin-bottom: 50px;
+}
+
+.map {
+    border: 6px solid rgb(6, 122, 16);
+    border-radius: 15px;
 
 }
 
@@ -134,4 +139,5 @@ footer p {
 footer {
     background-color: rgb(0, 62, 0);
     height: 80px;
+    padding: 40px 40px;
 }
