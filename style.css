@@ -50,18 +50,41 @@ strong {
 }
 
 .ammount-box {
-    height: 100px;
-    width: 100px;
+
+    width: 75px;
     border: solid;
     color: gray;
-    text-align: center;
-    margin-right: 20px;
+    border: none;
+    background-color: rgb(244, 244, 244);
     padding: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.faded {
+    color: rgb(191, 191, 191);
+}
+
+.marked-box {
+    background-color: rgba(231, 66, 6, 0.31);
+    border: 3px solid rgb(155, 53, 16);
+    border-radius: 4px;
+    color: brown;
 }
 
 .flexible-container {
     display: flex;
     margin-bottom: 150px;
+}
+
+.flex {
+
+    display: flex;
+    margin: 0% 15%;
 }
 
 .box-content {
